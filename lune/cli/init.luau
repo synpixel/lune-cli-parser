@@ -8,7 +8,7 @@ local parser = Parser.new("demo")
 local function cli(rawArgs: { string })
 	local args = parser:parse(rawArgs)
 	if args.command == greet.command then
-		greet.handle((args :: any) :: greet.GreetArgs)
+		greet.handle(args :: greet.GreetArgs)
 	end
 end
 
