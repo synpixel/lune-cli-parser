@@ -1,5 +1,5 @@
-local Result = require("result")
-local Arg = require("arg")
+local Result = require("@pkg/result")
+local Arg = require("./arg")
 
 local parsers: { [string]: (raw: string, arg: Arg.Arg) -> Result.Result<unknown, string> } = {
 	string = function(raw)

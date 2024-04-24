@@ -1,8 +1,8 @@
-local Arg = require("arg")
-local Subcommand = require("subcommand")
-local parseArgument = require("parseArgument")
-local parseSubcommand = require("parseSubcommand")
-local Option = require("option")
+local Arg = require("./arg")
+local Subcommand = require("./subcommand")
+local parseArgument = require("./parseArgument")
+local parseSubcommand = require("./parseSubcommand")
+local Option = require("@pkg/option")
 
 local function findArgFromName(args: { Arg.Arg }, name: string)
 	for _, arg in args do

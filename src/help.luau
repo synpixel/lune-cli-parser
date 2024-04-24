@@ -1,6 +1,6 @@
 local stdio = require("@lune/stdio")
-local Arg = require("arg")
-local Subcommand = require("subcommand")
+local Arg = require("./arg")
+local Subcommand = require("./subcommand")
 
 local flag = Arg.new("help"):about("Print help"):long("help"):short("h"):boolean():optional()
 

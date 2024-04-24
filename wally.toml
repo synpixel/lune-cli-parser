@@ -1,0 +1,9 @@
+[package]
+name = "synpixel/lune-cli-parser"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+option = "lukadev-0/option@1.0.0"
+result = "lukadev-0/result@1.0.0"

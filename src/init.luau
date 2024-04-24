@@ -1,9 +1,9 @@
 local process = require("@lune/process")
 local stdio = require("@lune/stdio")
-local Arg = require("arg")
-local Subcommand = require("subcommand")
-local parseArguments = require("parseArguments")
-local help = require("help")
+local Arg = require("./arg")
+local Subcommand = require("./subcommand")
+local help = require("./help")
+local parseArguments = require("./parseArguments")
 
 local Parser = {}
 Parser.Arg = Arg

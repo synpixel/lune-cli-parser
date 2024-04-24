@@ -1,4 +1,4 @@
-local Subcommand = require("subcommand")
+local Subcommand = require("./subcommand")
 
 local function findSubcommandByName(subcommands: { Subcommand.Subcommand }, name: string): Subcommand.Subcommand?
 	for _, subcommand in subcommands do

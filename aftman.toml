@@ -1,3 +1,4 @@
 [tools]
 lune = "filiptibell/lune@0.8.2"
 darklua = "seaofvoices/darklua@0.13.0"
+lune-wally = "VirtualButFake/wally@1.1.0"

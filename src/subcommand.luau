@@ -1,4 +1,4 @@
-local Arg = require("arg")
+local Arg = require("./arg")
 
 local Subcommand = {}
 
